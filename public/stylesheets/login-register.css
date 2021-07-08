@@ -1,0 +1,152 @@
+body{
+    background-color: #1f1f1f;
+}
+
+nav{
+    display: none;
+    height: 0;
+    visibility: hidden;
+}
+
+.login-register{
+    box-shadow: 1px 5px 30px 1px black;
+    background-color: white;
+    padding: 0;
+    max-width: 1000px;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.left{
+    height: 650px;
+    padding: 0;
+}
+
+img{
+    height: 650px;
+}
+
+.login h1{
+    font-weight: bolder;
+    padding: 6%;
+}
+
+.right input[type=text], input[type=password], input[type=email]{
+    width: 400px;
+    padding: 2% 2%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.right input[type=submit]{
+    border-radius: 30px;
+    font-size: large;
+    text-transform: capitalize;
+    padding: 1% 4%;
+}
+
+.register{
+    display: none;
+}
+
+.register h1{
+    padding: 6%;
+    font-weight: bolder;
+}
+
+.btn-submit{
+    background-color: #1f1f1f;
+    color: white;
+    letter-spacing: 0.05em;
+    width: 400px;
+    margin: auto;
+}
+
+.btn-submit:hover{
+    color: white;
+    background-color: black;
+}
+
+.brandname{
+    font-family: 'Satisfy', cursive;
+    font-style: normal;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 5%;
+}
+
+/* Responsive Layout */
+/*Laptops*/
+@media screen and (max-width: 992px){
+    .image-slider{
+        display: none;
+        height: 0;
+        visibility: hidden;
+    }
+    .login-register{
+        height: auto;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+/*Tablets*/
+@media screen and (max-width: 768px){
+    .image-slider{
+        display: none;
+        height: 0;
+        visibility: hidden;
+    }
+    .login-register{
+        height: auto;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+/*Mobile Phone*/
+@media screen and (max-width: 576px){
+    .image-slider{
+        display: none;
+        height: 0;
+        visibility: hidden;
+    }
+    .login-register{
+        height: auto;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .right input[type=text], input[type=password], input[type=email]{
+        width: 75%;
+        padding: 2% 2%;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        outline: none;
+    }
+    
+    .right input[type=submit]{
+        width: 75%;
+        border-radius: 30px;
+        font-size: large;
+        text-transform: capitalize;
+        padding: 1% 4%;
+    }
+}
