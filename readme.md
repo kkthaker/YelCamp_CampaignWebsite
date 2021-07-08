@@ -17,13 +17,13 @@ This project was created using Node.js, Express, MongoDB, and Bootstrap. Passpor
 
 
 ## Custom Enhancements:
-Update campground photos when editing campgrounds
+-- Update campground photos when editing campgrounds
 
-Update personal information on profile page
+-- Update personal information on profile page
 
-Improve image load time on the landing page using Cloudinary
+-- Improve image load time on the landing page using Cloudinary
 
-Use Helmet to strengthen security
+-- Use Helmet to strengthen security
 
 ## Build and Run
 
@@ -37,7 +37,7 @@ Use Helmet to strengthen security
 ### Run Software
 
 1. Clone Repo
-   - `$> git clone https://github.com/sulbhagarg/YelpCamp.git
+   - `$> git clone https://github.com/kkthaker/YelCamp_CampaignWebsite.git
 2. Change Directory
    - `$> cd YelpCamp/`
 3. Install Dependencies
