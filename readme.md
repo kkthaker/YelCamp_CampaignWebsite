@@ -1,7 +1,29 @@
 # YelpCamp
 
-## Demo
-https://yelp-camp-sulbha.herokuapp.com/
+![image](https://user-images.githubusercontent.com/63163693/124935413-44579600-e023-11eb-917c-7fbede842744.png)
+
+![image](https://user-images.githubusercontent.com/63163693/124935513-589b9300-e023-11eb-90f9-57f88b0a3871.png)
+
+YelpCamp is a website where users can create and review campgrounds. In order to review or create a campground, you must have an account. This project was part of Colt Steele's web dev course on udemy.
+
+This project was created using Node.js, Express, MongoDB, and Bootstrap. Passport.js was used to handle authentication.
+
+## Features:
+1. Users can create, edit, and remove campgrounds
+2. Users can review campgrounds once, and edit or remove their review
+3. User profiles include more information on the user (full name, email, phone, join date), their campgrounds, and the option to edit their profile or delete their account
+4. Search campground by name or location
+5. Sort campgrounds by highest rating, most reviewed, lowest price, or highest price
+
+
+## Custom Enhancements:
+Update campground photos when editing campgrounds
+
+Update personal information on profile page
+
+Improve image load time on the landing page using Cloudinary
+
+Use Helmet to strengthen security
 
 ## Build and Run
 
