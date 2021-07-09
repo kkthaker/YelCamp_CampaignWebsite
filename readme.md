@@ -14,6 +14,7 @@ This project was created using Node.js, Express, MongoDB, and Bootstrap. Passpor
 3. User profiles include more information on the user (full name, email, phone, join date), their campgrounds, and the option to edit their profile or delete their account
 4. Search campground by name or location
 5. Sort campgrounds by highest rating, most reviewed, lowest price, or highest price
+6. Trying to add weather forecasting for next 10 days
 
 
 ## Custom Enhancements:
