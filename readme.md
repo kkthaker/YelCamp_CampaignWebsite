@@ -22,7 +22,7 @@ This project was created using Node.js, Express, MongoDB, and Bootstrap. Passpor
 
 -- Update personal information on profile page
 
--- Improve image load time on the landing page using Cloudinary
+-- Improve image load time on the landing page
 
 -- Use Helmet to strengthen security
 
