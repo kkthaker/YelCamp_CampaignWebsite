@@ -15,7 +15,7 @@ var express        = require("express"),
 // Setting up the environment variables.
 // ========================================
 var PORT           = process.env.PORT || 3000,
-    URL            = process.env.DATABASEURL || "mongodb://localhost/yelp_camp";
+    URL            = process.env.DATABASEURL || "mongodb+srv://kunj:Jayesh%401968@cluster0.rye9q.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 // ==================
 // Requiring routes
